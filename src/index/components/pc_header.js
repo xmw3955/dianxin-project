@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-11 10:47:15
- * @LastEditTime: 2020-09-11 11:31:50
+ * @LastEditTime: 2020-09-11 16:00:01
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \dianxin_project\src\index\components\pc_header.js
@@ -29,7 +29,7 @@ export default class PCHeader extends React.Component{
         return(
             <header>
                  <Row>
-      <Col span={2}>col-2</Col>
+      <Col span={2}></Col>
       <Col span={4}>
           <a href="#" class="logo">
               <img src='../../images/logo.gif'/>
@@ -60,12 +60,12 @@ export default class PCHeader extends React.Component{
         <LoadingOutlined /> 科技
         </Menu.Item>
         <Menu.Item key="shishang"  >
-        <LoadingOutlined />  时尚
+        <SyncOutlined/>   时尚
         </Menu.Item>
 
         </Menu>
       </Col>
-      <Col span={2}>col-2</Col>
+      <Col span={2}></Col>
                  </Row>
             </header>
         )
