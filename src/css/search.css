@@ -1,0 +1,10 @@
+.search-text {
+  width: 400px;
+  height: 400px;
+  background: #42dd13;
+  font-family: '张雨绮';
+}
+@font-face {
+  font-family: '张雨绮';
+  src: url('../fonts/包图小白体.ttf');
+}
