@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-11 09:17:01
- * @LastEditTime: 2020-09-11 09:23:58
+ * @LastEditTime: 2020-09-11 09:45:33
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \dianxin_project\webpack.config.js
@@ -10,7 +10,7 @@ const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
-    watch:true,
+
     mode:'development',
         entry:'./src/index.js',
     output:{
